@@ -1,0 +1,104 @@
+*::after,
+*::before,
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family:  'Poppins', sans-serif;
+}
+
+.container{
+   width: min(1450px, 90%);
+   margin-inline: auto;
+}
+
+
+/*-----------starts header------------*/
+
+.nav-bar{
+   background-color: rgba(16, 165, 198, 0.692);
+   padding: 1.5em 0 ;
+}
+
+.nav-links{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-item{
+   display: inline;
+   padding: .2em .6em;
+}
+
+.nav-link, .logo{
+   text-decoration: none;
+   color: white;
+   font-size: 1.2rem;
+   text-transform:capitalize;
+   transition: .7s;
+}
+
+
+.nav-link:hover,
+.nav-link:focus-visible{
+   color: rgb(25, 247, 247);
+}
+
+.logo{
+   font-size: 2.3rem;
+}
+
+/******Main******/
+
+.bank-title{
+   text-align: center;
+   margin-top: 4em;
+}
+
+.bank{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 4em;
+}
+
+
+label{
+   font-weight: 700;
+   font-size: 2rem;
+   margin-right: .5em;
+} 
+
+ input{
+   padding: .3em .1em;
+   width: 20em;
+} 
+
+ .btn{
+   padding: .4em .7em;
+   cursor: pointer;
+   font-size: 1.1rem;
+   font-weight: 700;
+   background-color: rgba(23, 195, 234, 0.692);
+   color: white;
+   border: none;
+   border-radius: .5rem;
+   
+}
+
+.btn:hover,
+.btn:focus-visible{
+  color:  rgb(5, 5, 143);
+}
+
+.summary h3{
+   font-size: 2rem;
+}
+
+.hero img{
+   height: 40rem;
+   width: 100%;
+}
